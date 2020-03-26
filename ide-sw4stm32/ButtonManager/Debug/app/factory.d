@@ -56,6 +56,12 @@ app/factory.o: \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\port\default-idf\mutex-default.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\interface\mutex.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\timeout.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\platform\f7-disco-gcc\board\buttonscontroller.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonirq.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackcaller.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackprovider.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\behavior.h \
+ C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/ide-sw4stm32/ButtonManager/Inc/main.h \
  C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/src/app/ButtonEventsLogger.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlerobserver.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlersubject.h
@@ -171,6 +177,18 @@ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\port\defaul
 c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\interface\mutex.h:
 
 c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\timeout.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\platform\f7-disco-gcc\board\buttonscontroller.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonirq.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackcaller.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackprovider.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\behavior.h:
+
+C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/ide-sw4stm32/ButtonManager/Inc/main.h:
 
 C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/src/app/ButtonEventsLogger.h:
 

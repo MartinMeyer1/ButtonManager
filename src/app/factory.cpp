@@ -8,7 +8,10 @@ namespace app
 
 } /* namespace app */
 
+//ButtonsController bc;
+
 StateMachine01 app::Factory::_task01(100, "Say Hello\r");
+ButtonsController app::Factory::bc;
 
 void Factory_initialize()
 {
@@ -35,5 +38,6 @@ void app::Factory::build()
     Trace::out("Starting test1...\n\r---------------------\r");
 
     // Start state machine
-    app::Factory::_task01.startBehavior();
+    //app::Factory::_task01.startBehavior();
+    /*app::Factory::*/bc.startBehavior();
 }

@@ -11,6 +11,8 @@
 
 #include "interface\buttonirq.h"
 #include "interface\buttonscontrollercallbackcaller.h"
+#include "xf\include\xf\behavior.h"
+#include "main.h"
 
 
 class ButtonsController : public interface::ButtonIrq, public interface::ButtonsControllerCallbackCaller, public XFBehavior{
@@ -32,8 +34,8 @@ protected:
 	 */
 	typedef enum
 	{
-		evTimeout = 1,	///< Timeout id for WAIT
-		evButtonIrq = 2	///< Event on button changed
+		_evTimeout = 1,	///< Timeout id for WAIT
+		_evButtonIrq = 2	///< Event on button changed
 	} eEventId;
 
 	/**
@@ -45,7 +47,7 @@ protected:
 		STATE_UNKNOWN = 0,			///< Unknown state
 		STATE_INITIAL = 1,			///< Initial state
 		STATE_CHECK_BUTTONS = 2,	///< check button state
-		STATE_DEBOUNCE	 = 2		///< debounce state
+		STATE_DEBOUNCE	 = 3		///< debounce state
 	} eMainState;
 
 	eMainState _currentState;		///< Attribute indicating currently active state

@@ -240,8 +240,8 @@ void Error_Handler(void);
 #define LCD_G2_GPIO_Port GPIOJ
 #define BUTTON_2_Pin GPIO_PIN_7
 #define BUTTON_2_GPIO_Port GPIOG
-#define BUTTON_2G6_Pin GPIO_PIN_6
-#define BUTTON_2G6_GPIO_Port GPIOG
+#define BUTTON_3_Pin GPIO_PIN_6
+#define BUTTON_3_GPIO_Port GPIOG
 #define ARDUINO_A4_Pin GPIO_PIN_7
 #define ARDUINO_A4_GPIO_Port GPIOF
 #define ARDUINO_A5_Pin GPIO_PIN_6
