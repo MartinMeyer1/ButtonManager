@@ -17,6 +17,9 @@ public:
 
 	void onButtonShortPressed(ButtonIndex buttonIndex);         ///< @brief Called by the subject upon a button short pressed.
     void onButtonLongPressed(ButtonIndex buttonIndex);          ///< @brief Called by the subject upon a button long pressed.
+
+private:
+    //TODO button events handler pointer
 };
 
 #endif /* BUTTONEVENTSLOGGER_H_ */

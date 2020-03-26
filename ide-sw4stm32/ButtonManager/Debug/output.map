@@ -5215,25 +5215,140 @@ Discarded input sections
  .group         0x00000000        0xc app/ButtonEventsLogger.o
  .group         0x00000000        0xc app/ButtonEventsLogger.o
  .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
+ .group         0x00000000        0xc app/ButtonEventsLogger.o
  .text          0x00000000        0x0 app/ButtonEventsLogger.o
  .data          0x00000000        0x0 app/ButtonEventsLogger.o
  .bss           0x00000000        0x0 app/ButtonEventsLogger.o
  .text._ZN18ButtonEventsLoggerD2Ev
                 0x00000000        0x4 app/ButtonEventsLogger.o
- .text._ZN18ButtonEventsLogger20onButtonShortPressedEh
-                0x00000000        0x4 app/ButtonEventsLogger.o
  .text._ZN18ButtonEventsLoggerD0Ev
                 0x00000000       0x10 app/ButtonEventsLogger.o
+ .text._ZN18ButtonEventsLogger20onButtonShortPressedEh
+                0x00000000        0xc app/ButtonEventsLogger.o
+ .text._ZN18ButtonEventsLogger19onButtonLongPressedEh
+                0x00000000        0xc app/ButtonEventsLogger.o
  .text._ZN18ButtonEventsLoggerC2Ev
                 0x00000000        0xc app/ButtonEventsLogger.o
  .rodata        0x00000000       0x18 app/ButtonEventsLogger.o
- .debug_info    0x00000000      0x53b app/ButtonEventsLogger.o
- .debug_abbrev  0x00000000      0x25a app/ButtonEventsLogger.o
- .debug_loc     0x00000000       0x1e app/ButtonEventsLogger.o
+ .rodata.str1.4
+                0x00000000       0x36 app/ButtonEventsLogger.o
+ .debug_info    0x00000000     0x5567 app/ButtonEventsLogger.o
+ .debug_abbrev  0x00000000      0x80f app/ButtonEventsLogger.o
+ .debug_loc     0x00000000       0xa2 app/ButtonEventsLogger.o
  .debug_aranges
-                0x00000000       0x38 app/ButtonEventsLogger.o
- .debug_ranges  0x00000000       0x28 app/ButtonEventsLogger.o
- .debug_macro   0x00000000       0x86 app/ButtonEventsLogger.o
+                0x00000000       0x40 app/ButtonEventsLogger.o
+ .debug_ranges  0x00000000       0x30 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x742 app/ButtonEventsLogger.o
  .debug_macro   0x00000000      0xb38 app/ButtonEventsLogger.o
  .debug_macro   0x00000000       0x1c app/ButtonEventsLogger.o
  .debug_macro   0x00000000       0x22 app/ButtonEventsLogger.o
@@ -5242,10 +5357,121 @@ Discarded input sections
  .debug_macro   0x00000000       0xef app/ButtonEventsLogger.o
  .debug_macro   0x00000000       0x6a app/ButtonEventsLogger.o
  .debug_macro   0x00000000      0x1df app/ButtonEventsLogger.o
- .debug_line    0x00000000      0x3e7 app/ButtonEventsLogger.o
- .debug_str     0x00000000     0x472f app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x17b app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x1a7 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x2e app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x3b app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x1c app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x22 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0xdf app/ButtonEventsLogger.o
+ .debug_macro   0x00000000     0x12cd app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x11f app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x19 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000    0x1882d app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x43 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000     0x363d app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x55 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000     0x18ad app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x6c4 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x103 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x117 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x1fe app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x27 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x24f app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x41 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x58 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x236 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x408 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x161 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x100 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x22c app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x14f app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x25b app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x12 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x22c app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x5a app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0xa5 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x12f app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x108 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x35 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x2e2 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x313 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x4ca app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0xd6 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x2fe app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x9e2 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x59 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x519 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x44 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x14e app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x2e app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x168 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x10 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x3f4 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x1c app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x18 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x6e app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x28 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x41 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x12 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x2e app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x19 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x76 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x19 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x5e app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x18 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x35 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x34 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x58 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x1f app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x43 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x20 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x18e app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x1c app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x3c app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x34d app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x10 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x10 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x33 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x173 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x10 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x17 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x35 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x5e app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x16 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x4c app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x5e app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x11 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x11 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x2f app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x16 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x10 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x10 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x16 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x16 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x29 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x1c app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0xde app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x1c app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x10 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x1c app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x52 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x40 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x10 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x40 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0xd7 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x1c app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x3d app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x16 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x130 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x11d app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x10 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000      0x241 app/ButtonEventsLogger.o
+ .debug_macro   0x00000000       0x17 app/ButtonEventsLogger.o
+ .debug_line    0x00000000     0x1390 app/ButtonEventsLogger.o
+ .debug_str     0x00000000    0xff819 app/ButtonEventsLogger.o
  .comment       0x00000000       0x80 app/ButtonEventsLogger.o
- .debug_frame   0x00000000       0x58 app/ButtonEventsLogger.o
+ .debug_frame   0x00000000       0x68 app/ButtonEventsLogger.o
  .ARM.attributes
                 0x00000000       0x39 app/ButtonEventsLogger.o
  .group         0x00000000        0xc app/factory.o
@@ -5428,6 +5654,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x519 app/factory.o
  .debug_macro   0x00000000       0x44 app/factory.o
  .debug_macro   0x00000000      0x14e app/factory.o
+ .debug_macro   0x00000000       0x2e app/factory.o
  .debug_macro   0x00000000      0x168 app/factory.o
  .debug_macro   0x00000000       0x10 app/factory.o
  .debug_macro   0x00000000      0x3f4 app/factory.o
@@ -12062,7 +12289,7 @@ OUTPUT(ButtonManager.elf elf32-littlearm)
  .debug_ranges  0x000036d8       0x40 xf/port/default-idf/mutex-default.o
  .debug_ranges  0x00003718       0x28 xf/port/idf-stm32cube/port-functions.o
 
-.debug_macro    0x00000000    0x2e35f
+.debug_macro    0x00000000    0x2e331
  .debug_macro   0x00000000      0x262 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
  .debug_macro   0x00000262      0xa60 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
  .debug_macro   0x00000cc2      0x1a7 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
@@ -12160,37 +12387,36 @@ OUTPUT(ButtonManager.elf elf32-littlearm)
  .debug_macro   0x00028670       0x88 Src/syscalls.o
  .debug_macro   0x000286f8      0x244 Src/system_stm32f7xx.o
  .debug_macro   0x0002893c      0x88a app/factory.o
- .debug_macro   0x000291c6       0x2e app/factory.o
- .debug_macro   0x000291f4       0x17 app/factory.o
- .debug_macro   0x0002920b      0x85e app/statemachine01.o
- .debug_macro   0x00029a69       0x16 app/statemachine01.o
- .debug_macro   0x00029a7f       0x97 app/statemachine01.o
- .debug_macro   0x00029b16      0x353 app/statemachine01.o
- .debug_macro   0x00029e69      0x104 app/statemachine01.o
- .debug_macro   0x00029f6d      0x137 app/statemachine01.o
- .debug_macro   0x0002a0a4       0xd9 app/statemachine01.o
- .debug_macro   0x0002a17d       0x22 app/statemachine01.o
- .debug_macro   0x0002a19f       0x26 app/statemachine01.o
- .debug_macro   0x0002a1c5       0x10 app/statemachine01.o
- .debug_macro   0x0002a1d5      0x76f platform/f7-disco-gcc/board/trace.o
- .debug_macro   0x0002a944       0x4c platform/f7-disco-gcc/board/trace.o
- .debug_macro   0x0002a990       0x16 platform/f7-disco-gcc/board/trace.o
- .debug_macro   0x0002a9a6       0x32 platform/f7-disco-gcc/board/trace.o
- .debug_macro   0x0002a9d8      0x731 platform/f7-disco-gcc/mcu/critical/critical.o
- .debug_macro   0x0002b109      0x764 platform/f7-disco-gcc/mcu/hal/uart.o
- .debug_macro   0x0002b86d       0x10 platform/f7-disco-gcc/mcu/hal/uart.o
- .debug_macro   0x0002b87d       0x3f platform/f7-disco-gcc/mcu/hal/uart.o
- .debug_macro   0x0002b8bc      0x654 xf/core/behavior.o
- .debug_macro   0x0002bf10       0x25 xf/core/initialevent.o
- .debug_macro   0x0002bf35      0x303 xf/core/nulltransition.o
- .debug_macro   0x0002c238       0x25 xf/core/timeout.o
- .debug_macro   0x0002c25d      0x629 xf/port/default/dispatcher-default.o
- .debug_macro   0x0002c886      0x31b xf/port/default/resourcefactory-default.o
- .debug_macro   0x0002cba1      0x65b xf/port/default/timeoutmanager-default.o
- .debug_macro   0x0002d1fc      0x34a xf/port/default/xf-default.o
- .debug_macro   0x0002d546      0x318 xf/port/default-idf/eventqueue-default.o
- .debug_macro   0x0002d85e      0x2e9 xf/port/default-idf/mutex-default.o
- .debug_macro   0x0002db47      0x818 xf/port/idf-stm32cube/port-functions.o
+ .debug_macro   0x000291c6       0x17 app/factory.o
+ .debug_macro   0x000291dd      0x85e app/statemachine01.o
+ .debug_macro   0x00029a3b       0x16 app/statemachine01.o
+ .debug_macro   0x00029a51       0x97 app/statemachine01.o
+ .debug_macro   0x00029ae8      0x353 app/statemachine01.o
+ .debug_macro   0x00029e3b      0x104 app/statemachine01.o
+ .debug_macro   0x00029f3f      0x137 app/statemachine01.o
+ .debug_macro   0x0002a076       0xd9 app/statemachine01.o
+ .debug_macro   0x0002a14f       0x22 app/statemachine01.o
+ .debug_macro   0x0002a171       0x26 app/statemachine01.o
+ .debug_macro   0x0002a197       0x10 app/statemachine01.o
+ .debug_macro   0x0002a1a7      0x76f platform/f7-disco-gcc/board/trace.o
+ .debug_macro   0x0002a916       0x4c platform/f7-disco-gcc/board/trace.o
+ .debug_macro   0x0002a962       0x16 platform/f7-disco-gcc/board/trace.o
+ .debug_macro   0x0002a978       0x32 platform/f7-disco-gcc/board/trace.o
+ .debug_macro   0x0002a9aa      0x731 platform/f7-disco-gcc/mcu/critical/critical.o
+ .debug_macro   0x0002b0db      0x764 platform/f7-disco-gcc/mcu/hal/uart.o
+ .debug_macro   0x0002b83f       0x10 platform/f7-disco-gcc/mcu/hal/uart.o
+ .debug_macro   0x0002b84f       0x3f platform/f7-disco-gcc/mcu/hal/uart.o
+ .debug_macro   0x0002b88e      0x654 xf/core/behavior.o
+ .debug_macro   0x0002bee2       0x25 xf/core/initialevent.o
+ .debug_macro   0x0002bf07      0x303 xf/core/nulltransition.o
+ .debug_macro   0x0002c20a       0x25 xf/core/timeout.o
+ .debug_macro   0x0002c22f      0x629 xf/port/default/dispatcher-default.o
+ .debug_macro   0x0002c858      0x31b xf/port/default/resourcefactory-default.o
+ .debug_macro   0x0002cb73      0x65b xf/port/default/timeoutmanager-default.o
+ .debug_macro   0x0002d1ce      0x34a xf/port/default/xf-default.o
+ .debug_macro   0x0002d518      0x318 xf/port/default-idf/eventqueue-default.o
+ .debug_macro   0x0002d830      0x2e9 xf/port/default-idf/mutex-default.o
+ .debug_macro   0x0002db19      0x818 xf/port/idf-stm32cube/port-functions.o
 
 .debug_line     0x00000000    0x25281
  .debug_line    0x00000000      0xab8 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o

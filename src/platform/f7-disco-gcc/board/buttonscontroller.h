@@ -13,7 +13,7 @@
 #include "interface\buttonscontrollercallbackcaller.h"
 
 
-class ButtonsController : public interface::ButtonIrq, public interface::ButtonsControllerCallbackCaller{
+class ButtonsController : public interface::ButtonIrq, public interface::ButtonsControllerCallbackCaller, public XFBehavior{
 public:
 	ButtonsController();
 	virtual ~ButtonsController();
@@ -21,6 +21,38 @@ public:
 	void onIrq();
 	bool registerCallback(interface::ButtonsControllerCallbackProvider * callbackProvider,
 	                                  interface::ButtonsControllerCallbackProvider::CallbackMethod callbackMethod);
+
+
+protected:
+	virtual XFEventStatus processEvent();								///< Remplementation from XFBehavior
+	void doCheckButtons();
+
+	/**
+	 * Timeout identifier(s) for this state machine
+	 */
+	typedef enum
+	{
+		evTimeout = 1,	///< Timeout id for WAIT
+		evButtonIrq = 2	///< Event on button changed
+	} eEventId;
+
+	/**
+	 * Enumeration used to have a unique identifier for every
+	 * state in the state machine.
+	 */
+	typedef enum
+	{
+		STATE_UNKNOWN = 0,			///< Unknown state
+		STATE_INITIAL = 1,			///< Initial state
+		STATE_CHECK_BUTTONS = 2,	///< check button state
+		STATE_DEBOUNCE	 = 2		///< debounce state
+	} eMainState;
+
+	eMainState _currentState;		///< Attribute indicating currently active state
+
+private:
+	GPIO_PinState button_state[4];
+
 };
 
 #endif /* F7_DISCO_GCC_BOARD_BUTTONSCONTROLLER_H_ */
