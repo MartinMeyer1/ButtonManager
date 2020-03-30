@@ -11,7 +11,7 @@ namespace app
 //ButtonsController bc;
 
 StateMachine01 app::Factory::_task01(100, "Say Hello\r");
-ButtonsController app::Factory::bc;
+//ButtonsController app::Factory::bc;
 
 void Factory_initialize()
 {
@@ -39,5 +39,5 @@ void app::Factory::build()
 
     // Start state machine
     //app::Factory::_task01.startBehavior();
-    /*app::Factory::*/bc.startBehavior();
+    ButtonsController::getInstance().startBehavior();
 }

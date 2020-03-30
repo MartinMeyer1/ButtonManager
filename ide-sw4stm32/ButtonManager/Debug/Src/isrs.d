@@ -40,7 +40,25 @@ Src/isrs.o: ../Src/isrs.cpp \
  C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/ide-sw4stm32/ButtonManager/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\mdw\trace\trace.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\platform\f7-disco-gcc\config\trace-config.h \
- C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/ide-sw4stm32/ButtonManager/Inc/main.h
+ C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/ide-sw4stm32/ButtonManager/Inc/main.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\platform\f7-disco-gcc\board\buttonscontroller.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonirq.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackcaller.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackprovider.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\behavior.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\interface\reactive.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\event.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\eventstatus.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\interface\dispatcher.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\initialevent.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\nulltransition.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\xf.h \
+ C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/ide-sw4stm32/ButtonManager/config/xf-config.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\port\default-idf\eventqueue-default.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\interface\eventqueue.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\port\default-idf\mutex-default.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\interface\mutex.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\timeout.h
 
 c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\platform\f7-disco-gcc\mcu\mcu.h:
 
@@ -125,3 +143,39 @@ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\mdw\trace\trac
 c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\platform\f7-disco-gcc\config\trace-config.h:
 
 C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/ide-sw4stm32/ButtonManager/Inc/main.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\platform\f7-disco-gcc\board\buttonscontroller.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonirq.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackcaller.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackprovider.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\behavior.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\interface\reactive.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\event.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\eventstatus.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\interface\dispatcher.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\initialevent.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\nulltransition.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\xf.h:
+
+C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/ide-sw4stm32/ButtonManager/config/xf-config.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\port\default-idf\eventqueue-default.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\interface\eventqueue.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\port\default-idf\mutex-default.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\interface\mutex.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\timeout.h:

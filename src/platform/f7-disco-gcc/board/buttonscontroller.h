@@ -17,15 +17,25 @@
 
 class ButtonsController : public interface::ButtonIrq, public interface::ButtonsControllerCallbackCaller, public XFBehavior{
 public:
-	ButtonsController();
-	virtual ~ButtonsController();
+	static ButtonsController& getInstance()
+	{
+		static ButtonsController instance;
+		return instance;
+	}
 
-	void onIrq();
+
+	virtual void onIrq();
 	bool registerCallback(interface::ButtonsControllerCallbackProvider * callbackProvider,
 	                                  interface::ButtonsControllerCallbackProvider::CallbackMethod callbackMethod);
 
 
 protected:
+	ButtonsController();
+	virtual ~ButtonsController();
+	ButtonsController(const ButtonsController&){}
+	void operator=(const ButtonsController&){}
+
+
 	virtual XFEventStatus processEvent();								///< Remplementation from XFBehavior
 	void doCheckButtons();
 
@@ -35,7 +45,6 @@ protected:
 	typedef enum
 	{
 		_evTimeout = 1,	///< Timeout id for WAIT
-		_evButtonIrq = 2	///< Event on button changed
 	} eEventId;
 
 	/**
