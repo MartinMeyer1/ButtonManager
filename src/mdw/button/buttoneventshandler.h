@@ -44,7 +44,7 @@ protected:
 	void operator=(const ButtonEventsHandler&){}
 	std::list <interface::ButtonEventsHandlerObserver *> obsList;
 
-	//ButtonStateSm sm[4];
+	ButtonStateSm sm[4];
 
 
 private:

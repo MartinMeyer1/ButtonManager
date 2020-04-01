@@ -14,6 +14,10 @@ ButtonStateSm::~ButtonStateSm() {
 	// TODO Auto-generated destructor stub
 }
 
+ButtonStateSm::ButtonStateSm() {
+	_currentState = STATE_INITIAL;
+}
+
 XFEventStatus ButtonStateSm::processEvent() {
 	//Trace::out("Process event\n\r");
 	eEventStatus eventStatus = XFEventStatus::Unknown;
@@ -25,6 +29,7 @@ XFEventStatus ButtonStateSm::processEvent() {
 	switch(_currentState){
 	case STATE_INITIAL:
 		if(getCurrentEvent()->getEventType()==XFEvent::Initial){
+			//Trace::out("Initial\n\r");
 			_currentState = STATE_WAIT_BUTTON_PRESSED;
 			eventStatus = XFEventStatus::Consumed;
 		}
@@ -62,6 +67,7 @@ XFEventStatus ButtonStateSm::processEvent() {
 	if(_currentState != _oldState){
 		switch(_currentState){
 		case STATE_BUTTON_PRESSED:
+			//Trace::out("State button pressed\n\r");
 			scheduleTimeout(_evTimeout, 1000);
 			break;
 		case STATE_BUTTON_SHORT_PRESSED:
