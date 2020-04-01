@@ -63,6 +63,8 @@ protected:
 
 private:
 	GPIO_PinState button_state[4];
+	interface::ButtonsControllerCallbackProvider* callbackProvider;
+	interface::ButtonsControllerCallbackProvider::CallbackMethod callbackMethod;
 
 };
 

@@ -22,6 +22,7 @@ RM := rm -rf
 -include platform/f7-disco-gcc/mcu/critical/subdir.mk
 -include platform/f7-disco-gcc/board/subdir.mk
 -include mdw/trace/examples/subdir.mk
+-include mdw/button/subdir.mk
 -include event/subdir.mk
 -include app/subdir.mk
 -include Src/subdir.mk

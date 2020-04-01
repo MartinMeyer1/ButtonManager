@@ -7,9 +7,9 @@
 #ifdef __cplusplus
 
 // TODO: Add C++ specific includes here
-#include "statemachine01.h"
-#include "platform\f7-disco-gcc\board\buttonscontroller.h"
-#include "ButtonEventsLogger.h"
+//#include "statemachine01.h"
+//#include "platform\f7-disco-gcc\board\buttonscontroller.h"
+//#include "ButtonEventsLogger.h"
 
 namespace app
 {
@@ -24,11 +24,14 @@ public:
 
 protected:
     // TODO: Add static attributes here
-	static StateMachine01 _task01;      ///< First instance of StateMachine01
-	static ButtonsController bc;      	///< First instance of buttonscontroller
+	//static StateMachine01 _task01;      ///< First instance of StateMachine01
+	//static ButtonsController bc;      	///< First instance of buttonscontroller
+	//static ButtonEventsHandler beh;
+
 
 private:
-	ButtonEventsLogger btel;//TODO maybe constructor
+	//ButtonEventsLogger btel;//TODO maybe constructor
+
 };
 
 } /* namespace app */

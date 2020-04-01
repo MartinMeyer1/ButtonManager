@@ -29,6 +29,7 @@ Drivers/STM32F7xx_HAL_Driver/Src \
 Src \
 app \
 event \
+mdw/button \
 mdw/trace/examples \
 platform/f7-disco-gcc/board \
 platform/f7-disco-gcc/mcu/critical \

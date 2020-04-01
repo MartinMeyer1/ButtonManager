@@ -1,5 +1,8 @@
 #include "trace/trace.h"
 #include "factory.h"
+#include "mdw/button/buttoneventshandler.h"
+#include "platform\f7-disco-gcc\board\buttonscontroller.h"
+//#include "ButtonEventsLogger.h"
 
 namespace app
 {
@@ -10,7 +13,7 @@ namespace app
 
 //ButtonsController bc;
 
-StateMachine01 app::Factory::_task01(100, "Say Hello\r");
+//StateMachine01 app::Factory::_task01(100, "Say Hello\r");
 //ButtonsController app::Factory::bc;
 
 void Factory_initialize()
@@ -35,9 +38,8 @@ void app::Factory::initialize()
 // static
 void app::Factory::build()
 {
-    Trace::out("Starting test1...\n\r---------------------\r");
+    Trace::out("Starting program...\n\r---------------------\r");
 
-    // Start state machine
-    //app::Factory::_task01.startBehavior();
     ButtonsController::getInstance().startBehavior();
+    ButtonEventsHandler::getInstance().build();
 }
