@@ -40,6 +40,7 @@ void app::Factory::build()
 {
     Trace::out("Starting program...\n\r---------------------\r");
 
+    ButtonEventsLogger::getInstance().build();
     ButtonsController::getInstance().startBehavior();
     ButtonEventsHandler::getInstance().build();
 }

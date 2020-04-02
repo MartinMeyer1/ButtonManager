@@ -9,7 +9,7 @@
 // TODO: Add C++ specific includes here
 //#include "statemachine01.h"
 //#include "platform\f7-disco-gcc\board\buttonscontroller.h"
-//#include "ButtonEventsLogger.h"
+#include "ButtonEventsLogger.h"
 
 namespace app
 {
@@ -30,7 +30,6 @@ protected:
 
 
 private:
-	//ButtonEventsLogger btel;//TODO maybe constructor
 
 };
 

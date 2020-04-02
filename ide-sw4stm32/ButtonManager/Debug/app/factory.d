@@ -41,10 +41,12 @@ app/factory.o: \
  C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/ide-sw4stm32/ButtonManager/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h \
  C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/ide-sw4stm32/ButtonManager/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
  C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/src/app/factory.h \
+ C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/src/app/ButtonEventsLogger.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlerobserver.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlersubject.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\mdw\button\buttoneventshandler.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackprovider.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlerobserver.h \
- c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlersubject.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlersubject.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackcaller.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackprovider.h \
@@ -155,13 +157,17 @@ C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/ide-sw4stm32/Butto
 
 C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/src/app/factory.h:
 
+C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/src/app/ButtonEventsLogger.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlerobserver.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlersubject.h:
+
 c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\mdw\button\buttoneventshandler.h:
 
 c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackprovider.h:
 
 c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlerobserver.h:
-
-c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlersubject.h:
 
 c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlersubject.h:
 

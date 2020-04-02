@@ -19,7 +19,6 @@ ButtonStateSm::ButtonStateSm() {
 }
 
 XFEventStatus ButtonStateSm::processEvent() {
-	//Trace::out("Process event\n\r");
 	eEventStatus eventStatus = XFEventStatus::Unknown;
 	eMainState _oldState;
 
@@ -67,17 +66,16 @@ XFEventStatus ButtonStateSm::processEvent() {
 	if(_currentState != _oldState){
 		switch(_currentState){
 		case STATE_BUTTON_PRESSED:
-			//Trace::out("State button pressed\n\r");
 			scheduleTimeout(_evTimeout, 1000);
 			break;
 		case STATE_BUTTON_SHORT_PRESSED:
-			Trace::out("Short press\n\r");
 			unscheduleTimeout(_evTimeout);
 			ButtonEventsHandler::getInstance().notifyButtonShortPressed(buttonIndex);
+			_currentState=STATE_WAIT_BUTTON_PRESSED;
 			break;
 		case STATE_BUTTON_LONG_PRESSED:
-			Trace::out("Long press\n\r");
 			ButtonEventsHandler::getInstance().notifyButtonLongPressed(buttonIndex);
+			_currentState=STATE_WAIT_BUTTON_PRESSED;
 			break;
 		default:
 			break;

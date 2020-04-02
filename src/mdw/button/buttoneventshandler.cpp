@@ -36,127 +36,62 @@ ButtonEventsHandler::~ButtonEventsHandler() {
 
 void ButtonEventsHandler::onButtonChanged(uint16_t buttonIndex, bool pressed) {
 
-		switch(buttonIndex){
+	switch(buttonIndex){
 	case BUTTON0_Pin:
 		if(pressed){
-			//static evButtonPressed ep;
 			ButtonEventsHandler::sm[0].pushEvent(new evButtonPressed);
-			//Trace::out("Btn 0 pressed\n\r");
 		}
 		else{
-			//static evButtonReleased er;
 			ButtonEventsHandler::sm[0].pushEvent(new evButtonReleased);
-			//Trace::out("Btn 0 released\n\r");
 		}
 		break;
 	case BUTTON1_Pin:
 		if(pressed){
-			static evButtonPressed ep;
 			ButtonEventsHandler::sm[1].pushEvent(new evButtonPressed);
-			//Trace::out("Btn 1 pressed\n\r");
 		}
 		else{
-			static evButtonReleased er;
 			ButtonEventsHandler::sm[1].pushEvent(new evButtonReleased);
-			//Trace::out("Btn 1 released\n\r");
 		}
 		break;
 	case BUTTON2_Pin:
 		if(pressed){
-			static evButtonPressed ep;
 			ButtonEventsHandler::sm[2].pushEvent(new evButtonPressed);
-			//Trace::out("Btn 2 pressed\n\r");
 		}
 		else{
-			static evButtonReleased er;
 			ButtonEventsHandler::sm[2].pushEvent(new evButtonReleased);
-			//Trace::out("Btn 2 released\n\r");
 		}
 		break;
 	case BUTTON3_Pin:
 		if(pressed){
-			static evButtonPressed ep;
 			ButtonEventsHandler::sm[3].pushEvent(new evButtonPressed);
-			//Trace::out("Btn 3 pressed\n\r");
 		}
 		else{
-			static evButtonReleased er;
 			ButtonEventsHandler::sm[3].pushEvent(new evButtonReleased);
-			//Trace::out("Btn 3 released\n\r");
 		}
 		break;
 	default:
 		break;
 	}
-/*
-	switch(buttonIndex){
-	case BUTTON0_Pin:
-		if(pressed){
-			static evButtonPressed ep;
-			ButtonEventsHandler::sm[0].pushEvent(&ep);
-			Trace::out("Btn 0 pressed\n\r");
-		}
-		else{
-			static evButtonReleased er;
-			ButtonEventsHandler::sm[0].pushEvent(&er);
-			Trace::out("Btn 0 released\n\r");
-		}
-		break;
-	case BUTTON1_Pin:
-		if(pressed){
-			static evButtonPressed ep;
-			ButtonEventsHandler::sm[1].pushEvent(&ep);
-			Trace::out("Btn 1 pressed\n\r");
-		}
-		else{
-			static evButtonReleased er;
-			ButtonEventsHandler::sm[1].pushEvent(&er);
-			Trace::out("Btn 1 released\n\r");
-		}
-		break;
-	case BUTTON2_Pin:
-		if(pressed){
-			static evButtonPressed ep;
-			ButtonEventsHandler::sm[2].pushEvent(&ep);
-			Trace::out("Btn 2 pressed\n\r");
-		}
-		else{
-			static evButtonReleased er;
-			ButtonEventsHandler::sm[2].pushEvent(&er);
-			Trace::out("Btn 2 released\n\r");
-		}
-		break;
-	case BUTTON3_Pin:
-		if(pressed){
-			static evButtonPressed ep;
-			ButtonEventsHandler::sm[3].pushEvent(&ep);
-			Trace::out("Btn 3 pressed\n\r");
-		}
-		else{
-			static evButtonReleased er;
-			ButtonEventsHandler::sm[3].pushEvent(&er);
-			Trace::out("Btn 3 released\n\r");
-		}
-		break;
-	default:
-		break;
-	}*/
 }
 void ButtonEventsHandler::build() {
 	ButtonsController::getInstance().registerCallback(this,(ButtonsControllerCallbackProvider::CallbackMethod)&ButtonEventsHandler::onButtonChanged);
 
-	sm[0].initialize(BUTTON0_Pin);
-	sm[1].initialize(BUTTON1_Pin);
-	sm[2].initialize(BUTTON2_Pin);
-	sm[3].initialize(BUTTON3_Pin);
-
 	for(int i=0;i<4;i++){
+		sm[i].initialize(i);
 		sm[i].startBehavior();
 	}
 }
 
 void ButtonEventsHandler::notifyButtonShortPressed(ButtonIndex buttonIndex) {
+	std::list <interface::ButtonEventsHandlerObserver*> :: iterator it;
+	for(it = obsList.begin(); it != obsList.end(); ++it) {
+		(*it)->onButtonShortPressed(buttonIndex);
+	}
 }
 
 void ButtonEventsHandler::notifyButtonLongPressed(ButtonIndex buttonIndex) {
+	std::list <interface::ButtonEventsHandlerObserver*> :: iterator it;
+	for(it = obsList.begin(); it != obsList.end(); ++it) {
+		(*it)->onButtonLongPressed(buttonIndex);
+	}
 }

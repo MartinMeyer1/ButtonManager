@@ -33,7 +33,6 @@
 "Src/system_stm32f7xx.o"
 "app/ButtonEventsLogger.o"
 "app/factory.o"
-"app/statemachine01.o"
 "event/evbuttonirq.o"
 "event/evbuttonpressed.o"
 "event/evbuttonreleased.o"
