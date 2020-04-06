@@ -10,7 +10,9 @@
 
 #include ".\interface\buttoneventshandlerobserver.h"
 #include <ctime>
-class ButtonEventsLogger : public interface::ButtonEventsHandlerObserver{
+#include "xf\include\xf\behavior.h"
+
+class ButtonEventsLogger : public interface::ButtonEventsHandlerObserver,public XFBehavior{
 public:
 	//singleton pattern
 	static ButtonEventsLogger& getInstance()
@@ -26,7 +28,20 @@ public:
     void build();
 
 private:
-    //TODO button events handler pointer
+private:
+	virtual XFEventStatus processEvent();
+	/**
+	 * Enumeration used to have a unique identifier for every
+	 * state in the state machine.
+	 */
+	typedef enum
+	{
+		STATE_UNKNOWN = 0,			///< Unknown state
+		STATE_INITIAL = 1,			///< Initial state
+		STATE_WORK = 2,				///< check button state
+	} eMainState;
+
+	eMainState _currentState;		///< Attribute indicating currently active state
 protected:
 	ButtonEventsLogger();
 	virtual ~ButtonEventsLogger();

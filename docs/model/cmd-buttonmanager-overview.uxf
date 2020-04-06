@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.2">
+<diagram program="umlet" version="14.3.0">
   <help_text>
 
 // Uncomment the following line to change the fontsize and font:
@@ -26,14 +26,14 @@
 
 
 // This text will be stored with each diagram;  use it for notes.</help_text>
-  <zoom_level>9</zoom_level>
+  <zoom_level>17</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>207</y>
-      <w>252</w>
-      <h>117</h>
+      <x>459</x>
+      <y>391</y>
+      <w>476</w>
+      <h>221</h>
     </coordinates>
     <panel_attributes>ButtonEventsHandler
 &lt;&lt;Singleton&gt;&gt;
@@ -44,10 +44,10 @@ bg=white</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>135</x>
+      <x>34</x>
       <y>0</y>
-      <w>522</w>
-      <h>36</h>
+      <w>986</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>*ButtonManager - Basic Class Structure - Overview*
 
@@ -58,10 +58,10 @@ fontsize=22</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>126</x>
-      <y>18</y>
-      <w>504</w>
-      <h>27</h>
+      <x>17</x>
+      <y>34</y>
+      <w>952</w>
+      <h>51</h>
     </coordinates>
     <panel_attributes>lt=-
 lw=2.5</panel_attributes>
@@ -70,10 +70,10 @@ lw=2.5</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>135</x>
-      <y>729</y>
-      <w>882</w>
-      <h>27</h>
+      <x>34</x>
+      <y>1377</y>
+      <w>1666</w>
+      <h>51</h>
     </coordinates>
     <panel_attributes>lt=..
 halign=right
@@ -83,10 +83,10 @@ halign=right
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>135</x>
-      <y>540</y>
-      <w>882</w>
-      <h>180</h>
+      <x>34</x>
+      <y>1020</y>
+      <w>1666</w>
+      <h>340</h>
     </coordinates>
     <panel_attributes>Note:
 
@@ -105,10 +105,10 @@ bg=#FFCCCC</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>441</y>
-      <w>252</w>
-      <h>72</h>
+      <x>459</x>
+      <y>833</y>
+      <w>476</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>ButtonsController
 &lt;&lt;Singleton&gt;&gt;
@@ -119,23 +119,24 @@ bg=white</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>63</y>
-      <w>252</w>
-      <h>72</h>
+      <x>459</x>
+      <y>119</y>
+      <w>476</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>app::ButtonEventsLogger
 
-bg=white</panel_attributes>
+bg=green
+transparency=70</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>477</x>
-      <y>126</y>
-      <w>90</w>
-      <h>99</h>
+      <x>680</x>
+      <y>238</y>
+      <w>170</w>
+      <h>187</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 &lt;&lt;observing&gt;&gt;</panel_attributes>
@@ -144,10 +145,10 @@ bg=white</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>477</x>
-      <y>315</y>
-      <w>81</w>
-      <h>144</h>
+      <x>680</x>
+      <y>595</y>
+      <w>153</w>
+      <h>272</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 &lt;&lt;callback&gt;&gt;</panel_attributes>
@@ -156,14 +157,15 @@ bg=white</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>135</x>
-      <y>63</y>
-      <w>135</w>
-      <h>189</h>
+      <x>34</x>
+      <y>119</y>
+      <w>255</w>
+      <h>357</h>
     </coordinates>
     <panel_attributes>app::Factory
 
-bg=white
+bg=green
+transparency=70
 --
 
 --
@@ -175,10 +177,10 @@ bg=white
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>261</x>
-      <y>81</y>
-      <w>117</w>
-      <h>36</h>
+      <x>272</x>
+      <y>153</y>
+      <w>221</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
 m2=1</panel_attributes>
@@ -187,13 +189,15 @@ m2=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>702</x>
-      <y>63</y>
-      <w>288</w>
-      <h>72</h>
+      <x>1105</x>
+      <y>119</y>
+      <w>544</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>/ButtonEventsHandlerObserver/
 &lt;&lt;interface&gt;&gt;
+bg=blue
+transparency=90
 --
 + onButtonShortPressed(buttonIndex)
 + onButtonLongPressed(buttonIndex)</panel_attributes>
@@ -202,10 +206,10 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>603</x>
-      <y>81</y>
-      <w>117</w>
-      <h>27</h>
+      <x>918</x>
+      <y>153</y>
+      <w>221</w>
+      <h>51</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
@@ -213,10 +217,10 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>585</x>
-      <y>99</y>
-      <w>135</w>
-      <h>126</h>
+      <x>884</x>
+      <y>187</y>
+      <w>255</w>
+      <h>238</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
 r2=observer
@@ -226,10 +230,10 @@ m2=*</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>135</x>
-      <y>378</y>
-      <w>126</w>
-      <h>135</h>
+      <x>34</x>
+      <y>714</y>
+      <w>238</w>
+      <h>255</h>
     </coordinates>
     <panel_attributes>XF
 --
@@ -239,10 +243,10 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>108</y>
-      <w>126</w>
-      <h>387</h>
+      <x>255</x>
+      <y>204</y>
+      <w>238</w>
+      <h>731</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;410.0;70.0;410.0;70.0;10.0;120.0;10.0</additional_attributes>
@@ -250,10 +254,10 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>234</y>
-      <w>126</w>
-      <h>261</h>
+      <x>255</x>
+      <y>442</y>
+      <w>238</w>
+      <h>493</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;270.0;70.0;270.0;70.0;10.0;120.0;10.0</additional_attributes>
@@ -261,10 +265,10 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>468</y>
-      <w>126</w>
-      <h>27</h>
+      <x>255</x>
+      <y>884</y>
+      <w>238</w>
+      <h>51</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
@@ -272,13 +276,15 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>675</x>
-      <y>441</y>
-      <w>315</w>
-      <h>72</h>
+      <x>1054</x>
+      <y>833</y>
+      <w>595</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>/ButtonIrq/
 &lt;&lt;interface&gt;&gt;
+bg=blue
+transparency=90
 --
 + onIrq()</panel_attributes>
     <additional_attributes/>
@@ -286,10 +292,10 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>603</x>
-      <y>477</y>
-      <w>90</w>
-      <h>36</h>
+      <x>918</x>
+      <y>901</y>
+      <w>170</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>80.0;20.0;10.0;10.0</additional_attributes>
@@ -297,13 +303,15 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>675</x>
-      <y>360</y>
-      <w>315</w>
-      <h>72</h>
+      <x>1054</x>
+      <y>680</y>
+      <w>595</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>/ButtonsControllerCallbackCaller/
 &lt;&lt;interface&gt;&gt;
+bg=blue
+transparency=90
 --
 + registerCallback(callbackProvider, callbackMethod)</panel_attributes>
     <additional_attributes/>
@@ -311,10 +319,10 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>603</x>
-      <y>387</y>
-      <w>90</w>
-      <h>117</h>
+      <x>918</x>
+      <y>731</y>
+      <w>170</w>
+      <h>221</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>80.0;10.0;10.0;110.0</additional_attributes>
@@ -322,13 +330,15 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>675</x>
-      <y>252</y>
-      <w>315</w>
-      <h>72</h>
+      <x>1054</x>
+      <y>476</y>
+      <w>595</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>/ButtonsControllerCallbackProvider/
 &lt;&lt;interface&gt;&gt;
+bg=blue
+transparency=90
 --
 + onButtonChanged(buttonIndex, pressed : bool)</panel_attributes>
     <additional_attributes/>
@@ -336,13 +346,15 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>675</x>
-      <y>171</y>
-      <w>315</w>
-      <h>72</h>
+      <x>1054</x>
+      <y>323</y>
+      <w>595</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>/ButtonEventsHandlerSubject/
 &lt;&lt;interface&gt;&gt;
+bg=blue
+transparency=90
 --
 + subscribe(observer)
 + unsubscribe(observer)</panel_attributes>
@@ -351,10 +363,10 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>603</x>
-      <y>198</y>
-      <w>90</w>
-      <h>81</h>
+      <x>918</x>
+      <y>374</y>
+      <w>170</w>
+      <h>153</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>80.0;10.0;10.0;70.0</additional_attributes>
@@ -362,10 +374,10 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>603</x>
-      <y>252</y>
-      <w>90</w>
-      <h>54</h>
+      <x>918</x>
+      <y>476</y>
+      <w>170</w>
+      <h>102</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>80.0;40.0;10.0;10.0</additional_attributes>
@@ -373,10 +385,10 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>837</x>
-      <y>126</y>
-      <w>27</w>
-      <h>63</h>
+      <x>1360</x>
+      <y>238</y>
+      <w>51</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -384,10 +396,10 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>549</x>
-      <y>126</y>
-      <w>144</w>
-      <h>72</h>
+      <x>816</x>
+      <y>238</y>
+      <w>272</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>140.0;60.0;110.0;40.0;20.0;40.0;10.0;10.0</additional_attributes>
@@ -395,10 +407,10 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>549</x>
-      <y>315</y>
-      <w>144</w>
-      <h>81</h>
+      <x>816</x>
+      <y>595</y>
+      <w>272</w>
+      <h>153</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>140.0;70.0;110.0;40.0;20.0;40.0;10.0;10.0</additional_attributes>
@@ -406,10 +418,10 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>837</x>
-      <y>315</y>
-      <w>27</w>
-      <h>63</h>
+      <x>1360</x>
+      <y>595</y>
+      <w>51</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -417,10 +429,10 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>378</y>
-      <w>99</w>
-      <h>45</h>
+      <x>459</x>
+      <y>714</y>
+      <w>187</w>
+      <h>85</h>
     </coordinates>
     <panel_attributes>ButtonStateSm</panel_attributes>
     <additional_attributes/>
@@ -428,10 +440,10 @@ bg=#BBBBBB</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>315</y>
-      <w>36</w>
-      <h>81</h>
+      <x>527</x>
+      <y>595</y>
+      <w>68</w>
+      <h>153</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
 m2=4</panel_attributes>

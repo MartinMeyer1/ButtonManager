@@ -43,4 +43,5 @@ void app::Factory::build()
     ButtonEventsLogger::getInstance().build();
     ButtonsController::getInstance().startBehavior();
     ButtonEventsHandler::getInstance().build();
+    ButtonEventsLogger::getInstance().startBehavior();
 }

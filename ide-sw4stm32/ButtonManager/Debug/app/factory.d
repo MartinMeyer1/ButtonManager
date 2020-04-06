@@ -44,13 +44,6 @@ app/factory.o: \
  C:/Users/meyer/Saved/Hes/PTR/02-laboratory/work/ButtonManager/src/app/ButtonEventsLogger.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlerobserver.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlersubject.h \
- c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\mdw\button\buttoneventshandler.h \
- c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackprovider.h \
- c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlerobserver.h \
- c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlersubject.h \
- c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackcaller.h \
- c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackprovider.h \
- c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\mdw\button\buttonstatesm.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\behavior.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\interface\reactive.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\event.h \
@@ -65,6 +58,13 @@ app/factory.o: \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\port\default-idf\mutex-default.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\interface\mutex.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\timeout.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\mdw\button\buttoneventshandler.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackprovider.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlerobserver.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlersubject.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackcaller.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackprovider.h \
+ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\mdw\button\buttonstatesm.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\event\evbuttonpressed.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\customevent.h \
  c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\xf.h \
@@ -163,20 +163,6 @@ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\butt
 
 c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlersubject.h:
 
-c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\mdw\button\buttoneventshandler.h:
-
-c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackprovider.h:
-
-c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlerobserver.h:
-
-c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlersubject.h:
-
-c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackcaller.h:
-
-c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackprovider.h:
-
-c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\mdw\button\buttonstatesm.h:
-
 c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\behavior.h:
 
 c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\interface\reactive.h:
@@ -204,6 +190,20 @@ c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\port\defaul
 c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\interface\mutex.h:
 
 c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\xf\include\xf\timeout.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\mdw\button\buttoneventshandler.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackprovider.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlerobserver.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttoneventshandlersubject.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackcaller.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\interface\buttonscontrollercallbackprovider.h:
+
+c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\mdw\button\buttonstatesm.h:
 
 c:\users\meyer\saved\hes\ptr\02-laboratory\work\buttonmanager\src\event\evbuttonpressed.h:
 

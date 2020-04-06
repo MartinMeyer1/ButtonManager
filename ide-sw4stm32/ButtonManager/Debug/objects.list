@@ -36,6 +36,8 @@
 "event/evbuttonirq.o"
 "event/evbuttonpressed.o"
 "event/evbuttonreleased.o"
+"event/evlongpress.o"
+"event/evshortpress.o"
 "mdw/button/buttoneventshandler.o"
 "mdw/button/buttonstatesm.o"
 "mdw/trace/examples/trace-example01.o"
