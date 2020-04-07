@@ -35,17 +35,19 @@ protected:
 	 */
 	typedef enum
 	{
-		STATE_UNKNOWN = 0,			///< Unknown state
-		STATE_INITIAL = 1,			///< Initial state
-		STATE_WAIT_BUTTON_PRESSED = 2,	///< check button state
-		STATE_BUTTON_PRESSED	 = 3,
-		STATE_BUTTON_SHORT_PRESSED	 = 4,
-		STATE_BUTTON_LONG_PRESSED	 = 5,
+		STATE_UNKNOWN = 0,				///< Unknown state
+		STATE_INITIAL = 1,				///< Initial state
+		STATE_WAIT_BUTTON_PRESSED = 2,	///< wait on button pressed state
+		STATE_BUTTON_PRESSED	 = 3,	///< wait on release or timer state
+		STATE_BUTTON_SHORT_PRESSED	 = 4,///< short pressed state
+		STATE_BUTTON_LONG_PRESSED	 = 5,///< long pressed state
 	} eMainState;
 
 	eMainState _currentState;		///< Attribute indicating currently active state
 
 private:
+
+	//attribute needed to inform which button was long or short pressed to the buttoneventshandler
 	interface::ButtonEventsHandlerSubject::ButtonIndex buttonIndex;
 };
 

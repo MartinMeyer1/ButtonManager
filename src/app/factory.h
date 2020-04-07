@@ -23,10 +23,6 @@ public:
     static void build();                ///< Creates components and initializes relations
 
 protected:
-    // TODO: Add static attributes here
-	//static StateMachine01 _task01;      ///< First instance of StateMachine01
-	//static ButtonsController bc;      	///< First instance of buttonscontroller
-	//static ButtonEventsHandler beh;
 
 
 private:

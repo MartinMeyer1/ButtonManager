@@ -11,7 +11,6 @@
 
 
 ButtonStateSm::~ButtonStateSm() {
-	// TODO Auto-generated destructor stub
 }
 
 ButtonStateSm::ButtonStateSm() {
@@ -28,34 +27,41 @@ XFEventStatus ButtonStateSm::processEvent() {
 	switch(_currentState){
 	case STATE_INITIAL:
 		if(getCurrentEvent()->getEventType()==XFEvent::Initial){
-			//Trace::out("Initial\n\r");
+
+			//initial transition
 			_currentState = STATE_WAIT_BUTTON_PRESSED;
 			eventStatus = XFEventStatus::Consumed;
 		}
 		break;
 	case STATE_WAIT_BUTTON_PRESSED:
+		//on button press
 		if (getCurrentEvent()->getEventType()==XFEvent::Event
 				&& getCurrentEvent()->getId() == evButtonPressedId){
+			//change the current state
 			_currentState = STATE_BUTTON_PRESSED;
 			eventStatus = XFEventStatus::Consumed;
 		}
 
 		break;
 	case STATE_BUTTON_PRESSED:
+		//on button released
 		if (getCurrentEvent()->getEventType()==XFEvent::Event
 				&& getCurrentEvent()->getId() == evButtonReleasedId){
+			//change current state
 			_currentState = STATE_BUTTON_SHORT_PRESSED;
 			eventStatus = XFEventStatus::Consumed;
 		}
+		//on timeout reached
 		else if (getCurrentEvent()->getEventType() == XFEvent::Timeout &&
 			getCurrentTimeout()->getId() == _evTimeout){
-
+				//change current state
 				_currentState = STATE_BUTTON_LONG_PRESSED;
 				eventStatus = XFEventStatus::Consumed;
 			}
 		break;
 	case STATE_BUTTON_SHORT_PRESSED:
 	case STATE_BUTTON_LONG_PRESSED:
+		//return to the state
 		_currentState = STATE_WAIT_BUTTON_PRESSED;
 		break;
 	default:
@@ -66,14 +72,18 @@ XFEventStatus ButtonStateSm::processEvent() {
 	if(_currentState != _oldState){
 		switch(_currentState){
 		case STATE_BUTTON_PRESSED:
+			//start timer
 			scheduleTimeout(_evTimeout, 1000);
 			break;
 		case STATE_BUTTON_SHORT_PRESSED:
+			//unschedule timeout to prevent some troubles
 			unscheduleTimeout(_evTimeout);
+			//notify the buttoneventshandler
 			ButtonEventsHandler::getInstance().notifyButtonShortPressed(buttonIndex);
 			_currentState=STATE_WAIT_BUTTON_PRESSED;
 			break;
 		case STATE_BUTTON_LONG_PRESSED:
+			//notify the buttoneventshandler
 			ButtonEventsHandler::getInstance().notifyButtonLongPressed(buttonIndex);
 			_currentState=STATE_WAIT_BUTTON_PRESSED;
 			break;
@@ -87,5 +97,6 @@ XFEventStatus ButtonStateSm::processEvent() {
 
 void ButtonStateSm::initialize(
 		interface::ButtonEventsHandlerSubject::ButtonIndex buttonIndex) {
+	//save the button index
 	this->buttonIndex=buttonIndex;
 }

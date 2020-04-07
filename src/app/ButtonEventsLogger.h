@@ -38,13 +38,15 @@ private:
 	{
 		STATE_UNKNOWN = 0,			///< Unknown state
 		STATE_INITIAL = 1,			///< Initial state
-		STATE_WORK = 2,				///< check button state
+		STATE_WORK = 2,				///< work state
 	} eMainState;
 
 	eMainState _currentState;		///< Attribute indicating currently active state
 protected:
 	ButtonEventsLogger();
 	virtual ~ButtonEventsLogger();
+	ButtonEventsLogger(const ButtonEventsLogger&){}
+	void operator=(const ButtonEventsLogger&){}
 };
 
 #endif /* BUTTONEVENTSLOGGER_H_ */

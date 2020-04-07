@@ -22,15 +22,16 @@ ButtonsController::ButtonsController() {
 }
 
 ButtonsController::~ButtonsController() {
-	// TODO Auto-generated destructor stub
+
 }
 
 void ButtonsController::onIrq() {
-	//Trace::out("Interrupt\n\r");
+	//create event and push it
 	static evButtonIrq e;
 	this->pushEvent(&e);
 }
 
+//Called by a provider
 bool ButtonsController::registerCallback(
 		interface::ButtonsControllerCallbackProvider* callbackProvider,
 		interface::ButtonsControllerCallbackProvider::CallbackMethod callbackMethod) {
@@ -40,7 +41,6 @@ bool ButtonsController::registerCallback(
 }
 
 XFEventStatus ButtonsController::processEvent() {
-	//Trace::out("Process event\n\r");
 	eEventStatus eventStatus = XFEventStatus::Unknown;
 	eMainState _oldState;
 
@@ -50,24 +50,27 @@ XFEventStatus ButtonsController::processEvent() {
 	switch(_currentState){
 	case STATE_INITIAL:
 		if(getCurrentEvent()->getEventType()==XFEvent::Initial){
-			//Trace::out("Initial transition\n\r");
+			//Initial transition
 			_currentState = STATE_CHECK_BUTTONS;
 			eventStatus = XFEventStatus::Consumed;
 		}
 		break;
 	case STATE_CHECK_BUTTONS:
 
+		//on button event
 		if (getCurrentEvent()->getEventType()==XFEvent::Event
 				&& getCurrentEvent()->getId() == evButtonIrqId){
+			//change the current state
 			_currentState = STATE_DEBOUNCE;
 			eventStatus = XFEventStatus::Consumed;
 		}
 		break;
 	case STATE_DEBOUNCE:
 
+		//on timeout
 		if (getCurrentEvent()->getEventType() == XFEvent::Timeout &&
 		getCurrentTimeout()->getId() == _evTimeout){
-
+			//change the current state
 			_currentState = STATE_CHECK_BUTTONS;
 			eventStatus = XFEventStatus::Consumed;
 		}
@@ -80,11 +83,10 @@ XFEventStatus ButtonsController::processEvent() {
 	if(_currentState != _oldState){
 		switch(_currentState){
 			case STATE_CHECK_BUTTONS:
-				//Trace::out("Entry in check buttons state\n\r");
 				doCheckButtons();
 				break;
 			case STATE_DEBOUNCE:
-				//Trace::out("Entry in debounce state\n\r");
+				//start a timer
 				scheduleTimeout(_evTimeout, 100);
 				break;
 
@@ -96,49 +98,49 @@ XFEventStatus ButtonsController::processEvent() {
 	return eventStatus;
 }
 
+//check if button changed and notify the provider
 void ButtonsController::doCheckButtons() {
 
+	//Button 0
 	if(HAL_GPIO_ReadPin(BUTTON0_GPIO_Port,BUTTON0_Pin)!=this->button_state[0]){
 		if(HAL_GPIO_ReadPin(BUTTON0_GPIO_Port,BUTTON0_Pin)==GPIO_PIN_RESET){
-			//Trace::out("Button 0 pressed\n\r");
 			(callbackProvider->*callbackMethod)(BUTTON0_Pin,true);
 		}
 		else{
-			//Trace::out("Button 0 released\n\r");
 			(callbackProvider->*callbackMethod)(BUTTON0_Pin,false);
 		}
 
 		button_state[0]=HAL_GPIO_ReadPin(BUTTON0_GPIO_Port,BUTTON0_Pin);
 	}
+
+	//Button 1
 	if(HAL_GPIO_ReadPin(BUTTON1_GPIO_Port,BUTTON1_Pin)!=button_state[1]){
 		if(HAL_GPIO_ReadPin(BUTTON1_GPIO_Port,BUTTON1_Pin)==GPIO_PIN_RESET){
-			//Trace::out("Button 1 pressed\n\r");
 			(callbackProvider->*callbackMethod)(BUTTON1_Pin,true);
 		}
 		else{
-			//Trace::out("Button 1 released\n\r");
 			(callbackProvider->*callbackMethod)(BUTTON1_Pin,false);
 		}
 		button_state[1]=HAL_GPIO_ReadPin(BUTTON1_GPIO_Port,BUTTON1_Pin);
 	}
+
+	//Button 2
 	if(HAL_GPIO_ReadPin(BUTTON2_GPIO_Port,BUTTON2_Pin)!=button_state[2]){
 		if(HAL_GPIO_ReadPin(BUTTON2_GPIO_Port,BUTTON2_Pin)==GPIO_PIN_RESET){
-			//Trace::out("Button 2 pressed\n\r");
 			(callbackProvider->*callbackMethod)(BUTTON2_Pin,true);
 		}
 		else{
-			//Trace::out("Button 2 released\n\r");
 			(callbackProvider->*callbackMethod)(BUTTON2_Pin,false);
 		}
 		button_state[2]=HAL_GPIO_ReadPin(BUTTON2_GPIO_Port,BUTTON2_Pin);
 	}
+
+	//Button 3
 	if(HAL_GPIO_ReadPin(BUTTON3_GPIO_Port,BUTTON3_Pin)!=button_state[3]){
 		if(HAL_GPIO_ReadPin(BUTTON3_GPIO_Port,BUTTON3_Pin)==GPIO_PIN_RESET){
-			//Trace::out("Button 3 pressed\n\r");
 			(callbackProvider->*callbackMethod)(BUTTON3_Pin,true);
 		}
 		else{
-			//Trace::out("Button 3 released\n\r");
 			(callbackProvider->*callbackMethod)(BUTTON3_Pin,false);
 		}
 		button_state[3]=HAL_GPIO_ReadPin(BUTTON3_GPIO_Port,BUTTON3_Pin);

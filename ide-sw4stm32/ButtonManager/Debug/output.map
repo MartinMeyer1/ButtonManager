@@ -12775,7 +12775,7 @@ LOAD c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17
                 0x0000159a       0x22 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
 OUTPUT(ButtonManager.elf elf32-littlearm)
 
-.debug_info     0x00000000    0x66a7c
+.debug_info     0x00000000    0x66aeb
  .debug_info    0x00000000      0xa96 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
  .debug_info    0x00000a96      0xd9e Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.o
  .debug_info    0x00001834     0x11a8 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o
@@ -12800,33 +12800,33 @@ OUTPUT(ButtonManager.elf elf32-littlearm)
  .debug_info    0x000201b8      0x2b6 Src/stm32f7xx_it.o
  .debug_info    0x0002046e      0xff9 Src/syscalls.o
  .debug_info    0x00021467      0x742 Src/system_stm32f7xx.o
- .debug_info    0x00021ba9     0x6231 app/ButtonEventsLogger.o
- .debug_info    0x00027dda     0x583a app/factory.o
- .debug_info    0x0002d614      0xbba event/evbuttonirq.o
- .debug_info    0x0002e1ce      0xb6d event/evbuttonpressed.o
- .debug_info    0x0002ed3b      0xb6d event/evbuttonreleased.o
- .debug_info    0x0002f8a8      0xb6c event/evlongpress.o
- .debug_info    0x00030414      0xb6c event/evshortpress.o
- .debug_info    0x00030f80     0x63cc mdw/button/buttoneventshandler.o
- .debug_info    0x0003734c     0x3937 mdw/button/buttonstatesm.o
- .debug_info    0x0003ac83     0x3f29 platform/f7-disco-gcc/board/buttonscontroller.o
- .debug_info    0x0003ebac     0x5855 platform/f7-disco-gcc/board/trace.o
- .debug_info    0x00044401     0x5103 platform/f7-disco-gcc/mcu/critical/critical.o
- .debug_info    0x00049504     0x3072 platform/f7-disco-gcc/mcu/hal/uart.o
- .debug_info    0x0004c576       0x22 startup/startup_stm32f746xx.o
- .debug_info    0x0004c598     0x3119 xf/core/behavior.o
- .debug_info    0x0004f6b1      0xac8 xf/core/customevent.o
- .debug_info    0x00050179      0x511 xf/core/initialevent.o
- .debug_info    0x0005068a      0x65f xf/core/timeout.o
- .debug_info    0x00050ce9     0x350c xf/port/default/dispatcher-default.o
- .debug_info    0x000541f5      0xd13 xf/port/default/resourcefactory-default.o
- .debug_info    0x00054f08     0x8fda xf/port/default/timeoutmanager-default.o
- .debug_info    0x0005dee2      0xb06 xf/port/default/xf-default.o
- .debug_info    0x0005e9e8     0x4977 xf/port/default-idf/eventqueue-default.o
- .debug_info    0x0006335f      0xa5e xf/port/default-idf/mutex-default.o
- .debug_info    0x00063dbd     0x2cbf xf/port/idf-stm32cube/port-functions.o
+ .debug_info    0x00021ba9     0x62a0 app/ButtonEventsLogger.o
+ .debug_info    0x00027e49     0x583a app/factory.o
+ .debug_info    0x0002d683      0xbba event/evbuttonirq.o
+ .debug_info    0x0002e23d      0xb6d event/evbuttonpressed.o
+ .debug_info    0x0002edaa      0xb6d event/evbuttonreleased.o
+ .debug_info    0x0002f917      0xb6c event/evlongpress.o
+ .debug_info    0x00030483      0xb6c event/evshortpress.o
+ .debug_info    0x00030fef     0x63cc mdw/button/buttoneventshandler.o
+ .debug_info    0x000373bb     0x3937 mdw/button/buttonstatesm.o
+ .debug_info    0x0003acf2     0x3f29 platform/f7-disco-gcc/board/buttonscontroller.o
+ .debug_info    0x0003ec1b     0x5855 platform/f7-disco-gcc/board/trace.o
+ .debug_info    0x00044470     0x5103 platform/f7-disco-gcc/mcu/critical/critical.o
+ .debug_info    0x00049573     0x3072 platform/f7-disco-gcc/mcu/hal/uart.o
+ .debug_info    0x0004c5e5       0x22 startup/startup_stm32f746xx.o
+ .debug_info    0x0004c607     0x3119 xf/core/behavior.o
+ .debug_info    0x0004f720      0xac8 xf/core/customevent.o
+ .debug_info    0x000501e8      0x511 xf/core/initialevent.o
+ .debug_info    0x000506f9      0x65f xf/core/timeout.o
+ .debug_info    0x00050d58     0x350c xf/port/default/dispatcher-default.o
+ .debug_info    0x00054264      0xd13 xf/port/default/resourcefactory-default.o
+ .debug_info    0x00054f77     0x8fda xf/port/default/timeoutmanager-default.o
+ .debug_info    0x0005df51      0xb06 xf/port/default/xf-default.o
+ .debug_info    0x0005ea57     0x4977 xf/port/default-idf/eventqueue-default.o
+ .debug_info    0x000633ce      0xa5e xf/port/default-idf/mutex-default.o
+ .debug_info    0x00063e2c     0x2cbf xf/port/idf-stm32cube/port-functions.o
 
-.debug_abbrev   0x00000000     0xde5e
+.debug_abbrev   0x00000000     0xde58
  .debug_abbrev  0x00000000      0x240 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
  .debug_abbrev  0x00000240      0x298 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.o
  .debug_abbrev  0x000004d8      0x317 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o
@@ -12851,31 +12851,31 @@ OUTPUT(ButtonManager.elf elf32-littlearm)
  .debug_abbrev  0x00003a50      0x12d Src/stm32f7xx_it.o
  .debug_abbrev  0x00003b7d      0x312 Src/syscalls.o
  .debug_abbrev  0x00003e8f      0x147 Src/system_stm32f7xx.o
- .debug_abbrev  0x00003fd6      0xa01 app/ButtonEventsLogger.o
- .debug_abbrev  0x000049d7      0x7f4 app/factory.o
- .debug_abbrev  0x000051cb      0x496 event/evbuttonirq.o
- .debug_abbrev  0x00005661      0x469 event/evbuttonpressed.o
- .debug_abbrev  0x00005aca      0x469 event/evbuttonreleased.o
- .debug_abbrev  0x00005f33      0x491 event/evlongpress.o
- .debug_abbrev  0x000063c4      0x491 event/evshortpress.o
- .debug_abbrev  0x00006855      0xaf7 mdw/button/buttoneventshandler.o
- .debug_abbrev  0x0000734c      0x7ab mdw/button/buttonstatesm.o
- .debug_abbrev  0x00007af7      0x7fe platform/f7-disco-gcc/board/buttonscontroller.o
- .debug_abbrev  0x000082f5      0x941 platform/f7-disco-gcc/board/trace.o
- .debug_abbrev  0x00008c36      0x6e2 platform/f7-disco-gcc/mcu/critical/critical.o
- .debug_abbrev  0x00009318      0x6f7 platform/f7-disco-gcc/mcu/hal/uart.o
- .debug_abbrev  0x00009a0f       0x12 startup/startup_stm32f746xx.o
- .debug_abbrev  0x00009a21      0x7b4 xf/core/behavior.o
- .debug_abbrev  0x0000a1d5      0x476 xf/core/customevent.o
- .debug_abbrev  0x0000a64b      0x2b5 xf/core/initialevent.o
- .debug_abbrev  0x0000a900      0x2d3 xf/core/timeout.o
- .debug_abbrev  0x0000abd3      0x81e xf/port/default/dispatcher-default.o
- .debug_abbrev  0x0000b3f1      0x570 xf/port/default/resourcefactory-default.o
- .debug_abbrev  0x0000b961      0xcc0 xf/port/default/timeoutmanager-default.o
- .debug_abbrev  0x0000c621      0x532 xf/port/default/xf-default.o
- .debug_abbrev  0x0000cb53      0x891 xf/port/default-idf/eventqueue-default.o
- .debug_abbrev  0x0000d3e4      0x484 xf/port/default-idf/mutex-default.o
- .debug_abbrev  0x0000d868      0x5f6 xf/port/idf-stm32cube/port-functions.o
+ .debug_abbrev  0x00003fd6      0x9fb app/ButtonEventsLogger.o
+ .debug_abbrev  0x000049d1      0x7f4 app/factory.o
+ .debug_abbrev  0x000051c5      0x496 event/evbuttonirq.o
+ .debug_abbrev  0x0000565b      0x469 event/evbuttonpressed.o
+ .debug_abbrev  0x00005ac4      0x469 event/evbuttonreleased.o
+ .debug_abbrev  0x00005f2d      0x491 event/evlongpress.o
+ .debug_abbrev  0x000063be      0x491 event/evshortpress.o
+ .debug_abbrev  0x0000684f      0xaf7 mdw/button/buttoneventshandler.o
+ .debug_abbrev  0x00007346      0x7ab mdw/button/buttonstatesm.o
+ .debug_abbrev  0x00007af1      0x7fe platform/f7-disco-gcc/board/buttonscontroller.o
+ .debug_abbrev  0x000082ef      0x941 platform/f7-disco-gcc/board/trace.o
+ .debug_abbrev  0x00008c30      0x6e2 platform/f7-disco-gcc/mcu/critical/critical.o
+ .debug_abbrev  0x00009312      0x6f7 platform/f7-disco-gcc/mcu/hal/uart.o
+ .debug_abbrev  0x00009a09       0x12 startup/startup_stm32f746xx.o
+ .debug_abbrev  0x00009a1b      0x7b4 xf/core/behavior.o
+ .debug_abbrev  0x0000a1cf      0x476 xf/core/customevent.o
+ .debug_abbrev  0x0000a645      0x2b5 xf/core/initialevent.o
+ .debug_abbrev  0x0000a8fa      0x2d3 xf/core/timeout.o
+ .debug_abbrev  0x0000abcd      0x81e xf/port/default/dispatcher-default.o
+ .debug_abbrev  0x0000b3eb      0x570 xf/port/default/resourcefactory-default.o
+ .debug_abbrev  0x0000b95b      0xcc0 xf/port/default/timeoutmanager-default.o
+ .debug_abbrev  0x0000c61b      0x532 xf/port/default/xf-default.o
+ .debug_abbrev  0x0000cb4d      0x891 xf/port/default-idf/eventqueue-default.o
+ .debug_abbrev  0x0000d3de      0x484 xf/port/default-idf/mutex-default.o
+ .debug_abbrev  0x0000d862      0x5f6 xf/port/idf-stm32cube/port-functions.o
 
 .debug_loc      0x00000000    0x18de4
  .debug_loc     0x00000000      0x10d Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
@@ -13287,7 +13287,7 @@ OUTPUT(ButtonManager.elf elf32-littlearm)
  .debug_macro   0x0003544e      0x2e9 xf/port/default-idf/mutex-default.o
  .debug_macro   0x00035737      0x818 xf/port/idf-stm32cube/port-functions.o
 
-.debug_line     0x00000000    0x2fd81
+.debug_line     0x00000000    0x2fd87
  .debug_line    0x00000000      0xab8 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
  .debug_line    0x00000ab8      0xece Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.o
  .debug_line    0x00001986      0xb43 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o
@@ -13312,33 +13312,33 @@ OUTPUT(ButtonManager.elf elf32-littlearm)
  .debug_line    0x00015a09      0x8db Src/stm32f7xx_it.o
  .debug_line    0x000162e4      0x5c5 Src/syscalls.o
  .debug_line    0x000168a9      0x8d0 Src/system_stm32f7xx.o
- .debug_line    0x00017179     0x1a95 app/ButtonEventsLogger.o
- .debug_line    0x00018c0e     0x1a7e app/factory.o
- .debug_line    0x0001a68c      0xc61 event/evbuttonirq.o
- .debug_line    0x0001b2ed      0xc57 event/evbuttonpressed.o
- .debug_line    0x0001bf44      0xc65 event/evbuttonreleased.o
- .debug_line    0x0001cba9      0xc59 event/evlongpress.o
- .debug_line    0x0001d802      0xc5b event/evshortpress.o
- .debug_line    0x0001e45d     0x1bdd mdw/button/buttoneventshandler.o
- .debug_line    0x0002003a     0x19e6 mdw/button/buttonstatesm.o
- .debug_line    0x00021a20     0x1909 platform/f7-disco-gcc/board/buttonscontroller.o
- .debug_line    0x00023329     0x148b platform/f7-disco-gcc/board/trace.o
- .debug_line    0x000247b4     0x136d platform/f7-disco-gcc/mcu/critical/critical.o
- .debug_line    0x00025b21     0x1405 platform/f7-disco-gcc/mcu/hal/uart.o
- .debug_line    0x00026f26       0x7f startup/startup_stm32f746xx.o
- .debug_line    0x00026fa5     0x1049 xf/core/behavior.o
- .debug_line    0x00027fee      0xc4c xf/core/customevent.o
- .debug_line    0x00028c3a      0x146 xf/core/initialevent.o
- .debug_line    0x00028d80      0x153 xf/core/timeout.o
- .debug_line    0x00028ed3     0x10d2 xf/port/default/dispatcher-default.o
- .debug_line    0x00029fa5      0xce6 xf/port/default/resourcefactory-default.o
- .debug_line    0x0002ac8b     0x132f xf/port/default/timeoutmanager-default.o
- .debug_line    0x0002bfba      0xd0a xf/port/default/xf-default.o
- .debug_line    0x0002ccc4      0xe2a xf/port/default-idf/eventqueue-default.o
- .debug_line    0x0002daee      0xc1d xf/port/default-idf/mutex-default.o
- .debug_line    0x0002e70b     0x1676 xf/port/idf-stm32cube/port-functions.o
+ .debug_line    0x00017179     0x1a9d app/ButtonEventsLogger.o
+ .debug_line    0x00018c16     0x1a7e app/factory.o
+ .debug_line    0x0001a694      0xc61 event/evbuttonirq.o
+ .debug_line    0x0001b2f5      0xc57 event/evbuttonpressed.o
+ .debug_line    0x0001bf4c      0xc65 event/evbuttonreleased.o
+ .debug_line    0x0001cbb1      0xc59 event/evlongpress.o
+ .debug_line    0x0001d80a      0xc5b event/evshortpress.o
+ .debug_line    0x0001e465     0x1bda mdw/button/buttoneventshandler.o
+ .debug_line    0x0002003f     0x19e7 mdw/button/buttonstatesm.o
+ .debug_line    0x00021a26     0x1909 platform/f7-disco-gcc/board/buttonscontroller.o
+ .debug_line    0x0002332f     0x148b platform/f7-disco-gcc/board/trace.o
+ .debug_line    0x000247ba     0x136d platform/f7-disco-gcc/mcu/critical/critical.o
+ .debug_line    0x00025b27     0x1405 platform/f7-disco-gcc/mcu/hal/uart.o
+ .debug_line    0x00026f2c       0x7f startup/startup_stm32f746xx.o
+ .debug_line    0x00026fab     0x1049 xf/core/behavior.o
+ .debug_line    0x00027ff4      0xc4c xf/core/customevent.o
+ .debug_line    0x00028c40      0x146 xf/core/initialevent.o
+ .debug_line    0x00028d86      0x153 xf/core/timeout.o
+ .debug_line    0x00028ed9     0x10d2 xf/port/default/dispatcher-default.o
+ .debug_line    0x00029fab      0xce6 xf/port/default/resourcefactory-default.o
+ .debug_line    0x0002ac91     0x132f xf/port/default/timeoutmanager-default.o
+ .debug_line    0x0002bfc0      0xd0a xf/port/default/xf-default.o
+ .debug_line    0x0002ccca      0xe2a xf/port/default-idf/eventqueue-default.o
+ .debug_line    0x0002daf4      0xc1d xf/port/default-idf/mutex-default.o
+ .debug_line    0x0002e711     0x1676 xf/port/idf-stm32cube/port-functions.o
 
-.debug_str      0x00000000   0x11da5f
+.debug_str      0x00000000   0x11dab1
  .debug_str     0x00000000    0xf1e6c Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
                               0xf266c (size before relaxing)
  .debug_str     0x000f1e6c      0x627 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.o
@@ -13387,55 +13387,55 @@ OUTPUT(ButtonManager.elf elf32-littlearm)
                                0x85e6 (size before relaxing)
  .debug_str     0x00104074       0x5a Src/system_stm32f7xx.o
                               0xf1d7d (size before relaxing)
- .debug_str     0x001040ce     0x5a33 app/ButtonEventsLogger.o
-                             0x100af2 (size before relaxing)
- .debug_str     0x00109b01       0xef app/factory.o
+ .debug_str     0x001040ce     0x5aa7 app/ButtonEventsLogger.o
+                             0x100b66 (size before relaxing)
+ .debug_str     0x00109b75       0xef app/factory.o
                              0x101ee5 (size before relaxing)
- .debug_str     0x00109bf0      0x264 event/evbuttonirq.o
+ .debug_str     0x00109c64      0x264 event/evbuttonirq.o
                                0x7c0e (size before relaxing)
- .debug_str     0x00109e54      0x121 event/evbuttonpressed.o
+ .debug_str     0x00109ec8      0x121 event/evbuttonpressed.o
                                0x7c26 (size before relaxing)
- .debug_str     0x00109f75      0x12a event/evbuttonreleased.o
+ .debug_str     0x00109fe9      0x12a event/evbuttonreleased.o
                                0x7c31 (size before relaxing)
- .debug_str     0x0010a09f       0xe6 event/evlongpress.o
+ .debug_str     0x0010a113       0xe6 event/evlongpress.o
                                0x7bf0 (size before relaxing)
- .debug_str     0x0010a185       0xee event/evshortpress.o
+ .debug_str     0x0010a1f9       0xee event/evshortpress.o
                                0x7bfa (size before relaxing)
- .debug_str     0x0010a273     0x5664 mdw/button/buttoneventshandler.o
+ .debug_str     0x0010a2e7     0x5664 mdw/button/buttoneventshandler.o
                              0x10316e (size before relaxing)
- .debug_str     0x0010f8d7      0x2a4 mdw/button/buttonstatesm.o
+ .debug_str     0x0010f94b      0x2a4 mdw/button/buttonstatesm.o
                               0xfc030 (size before relaxing)
- .debug_str     0x0010fb7b      0x5a9 platform/f7-disco-gcc/board/buttonscontroller.o
+ .debug_str     0x0010fbef      0x587 platform/f7-disco-gcc/board/buttonscontroller.o
                               0xfddd1 (size before relaxing)
- .debug_str     0x00110124      0x3e5 platform/f7-disco-gcc/board/trace.o
+ .debug_str     0x00110176      0x3e5 platform/f7-disco-gcc/board/trace.o
                               0xff601 (size before relaxing)
- .debug_str     0x00110509     0x46c6 platform/f7-disco-gcc/mcu/critical/critical.o
+ .debug_str     0x0011055b     0x46c6 platform/f7-disco-gcc/mcu/critical/critical.o
                               0xff56c (size before relaxing)
- .debug_str     0x00114bcf      0x275 platform/f7-disco-gcc/mcu/hal/uart.o
+ .debug_str     0x00114c21      0x275 platform/f7-disco-gcc/mcu/hal/uart.o
                               0xfacde (size before relaxing)
- .debug_str     0x00114e44       0x2f startup/startup_stm32f746xx.o
+ .debug_str     0x00114e96       0x2f startup/startup_stm32f746xx.o
                                  0x8e (size before relaxing)
- .debug_str     0x00114e73      0x336 xf/core/behavior.o
+ .debug_str     0x00114ec5      0x336 xf/core/behavior.o
                                0xd5d2 (size before relaxing)
- .debug_str     0x001151a9       0xc4 xf/core/customevent.o
+ .debug_str     0x001151fb       0xc4 xf/core/customevent.o
                                0x7b41 (size before relaxing)
- .debug_str     0x0011526d      0x143 xf/core/initialevent.o
+ .debug_str     0x001152bf      0x143 xf/core/initialevent.o
                                0x3518 (size before relaxing)
- .debug_str     0x001153b0      0x224 xf/core/timeout.o
+ .debug_str     0x00115402      0x224 xf/core/timeout.o
                                0x360e (size before relaxing)
- .debug_str     0x001155d4      0x959 xf/port/default/dispatcher-default.o
+ .debug_str     0x00115626      0x959 xf/port/default/dispatcher-default.o
                                0xd9c6 (size before relaxing)
- .debug_str     0x00115f2d      0x55e xf/port/default/resourcefactory-default.o
+ .debug_str     0x00115f7f      0x55e xf/port/default/resourcefactory-default.o
                                0x7dc3 (size before relaxing)
- .debug_str     0x0011648b     0x3660 xf/port/default/timeoutmanager-default.o
+ .debug_str     0x001164dd     0x3660 xf/port/default/timeoutmanager-default.o
                               0x15b5f (size before relaxing)
- .debug_str     0x00119aeb       0xeb xf/port/default/xf-default.o
+ .debug_str     0x00119b3d       0xeb xf/port/default/xf-default.o
                                0x7f3b (size before relaxing)
- .debug_str     0x00119bd6     0x3bda xf/port/default-idf/eventqueue-default.o
+ .debug_str     0x00119c28     0x3bda xf/port/default-idf/eventqueue-default.o
                                0xbb7a (size before relaxing)
- .debug_str     0x0011d7b0      0x244 xf/port/default-idf/mutex-default.o
+ .debug_str     0x0011d802      0x244 xf/port/default-idf/mutex-default.o
                                0x7a2c (size before relaxing)
- .debug_str     0x0011d9f4       0x6b xf/port/idf-stm32cube/port-functions.o
+ .debug_str     0x0011da46       0x6b xf/port/idf-stm32cube/port-functions.o
                               0xfb011 (size before relaxing)
 
 .comment        0x00000000       0x7f

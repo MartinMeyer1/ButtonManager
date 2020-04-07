@@ -17,13 +17,14 @@
 
 class ButtonsController : public interface::ButtonIrq, public interface::ButtonsControllerCallbackCaller, public XFBehavior{
 public:
+	//singleton pattern
 	static ButtonsController& getInstance()
 	{
 		static ButtonsController instance;
 		return instance;
 	}
 
-
+	//from interfaces
 	virtual void onIrq();
 	bool registerCallback(interface::ButtonsControllerCallbackProvider * callbackProvider,
 	                                  interface::ButtonsControllerCallbackProvider::CallbackMethod callbackMethod);
@@ -37,6 +38,7 @@ protected:
 
 
 	virtual XFEventStatus processEvent();								///< Remplementation from XFBehavior
+
 	void doCheckButtons();
 
 	/**
@@ -62,7 +64,10 @@ protected:
 	eMainState _currentState;		///< Attribute indicating currently active state
 
 private:
+	//to store the old button state
 	GPIO_PinState button_state[4];
+
+	//callback pattern
 	interface::ButtonsControllerCallbackProvider* callbackProvider;
 	interface::ButtonsControllerCallbackProvider::CallbackMethod callbackMethod;
 

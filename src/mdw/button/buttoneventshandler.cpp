@@ -14,15 +14,20 @@ ButtonEventsHandler::ButtonEventsHandler() {
 
 }
 
+//Called by an observer to subscribe
 bool ButtonEventsHandler::subscribe(
 		interface::ButtonEventsHandlerObserver* observer) {
+
+	//add an observer to the list
 	obsList.push_front(observer);
 	return true;
 }
 
+//Called by an observer to unsubscribe
 void ButtonEventsHandler::unsubscribe(
 		interface::ButtonEventsHandlerObserver* observer) {
 
+	//erase the observer form the list
 	std::list <interface::ButtonEventsHandlerObserver*> :: iterator it;
 	for(it = obsList.begin(); it != obsList.end(); ++it) {
 		obsList.erase(it);
@@ -30,12 +35,13 @@ void ButtonEventsHandler::unsubscribe(
 }
 
 ButtonEventsHandler::~ButtonEventsHandler() {
-	// TODO Auto-generated destructor stub
+
 }
 
 
 void ButtonEventsHandler::onButtonChanged(uint16_t buttonIndex, bool pressed) {
 
+	//push event to the concerned state machine
 	switch(buttonIndex){
 	case BUTTON0_Pin:
 		if(pressed){
@@ -74,22 +80,31 @@ void ButtonEventsHandler::onButtonChanged(uint16_t buttonIndex, bool pressed) {
 	}
 }
 void ButtonEventsHandler::build() {
+
+	//register the function onButtonChanged to the ButtonsController Callback
 	ButtonsController::getInstance().registerCallback(this,(ButtonsControllerCallbackProvider::CallbackMethod)&ButtonEventsHandler::onButtonChanged);
 
+	//initialize and start the 4 state machines
 	for(int i=0;i<4;i++){
 		sm[i].initialize(i);
 		sm[i].startBehavior();
 	}
 }
 
+//called on short press by the 4 state machines
 void ButtonEventsHandler::notifyButtonShortPressed(ButtonIndex buttonIndex) {
+
+	//call onButtonShortPressed on all subscribed observers
 	std::list <interface::ButtonEventsHandlerObserver*> :: iterator it;
 	for(it = obsList.begin(); it != obsList.end(); ++it) {
 		(*it)->onButtonShortPressed(buttonIndex);
 	}
 }
 
+//called on long press by the 4 state machines
 void ButtonEventsHandler::notifyButtonLongPressed(ButtonIndex buttonIndex) {
+
+	//call onButtonLongPressed on all subscribed observers
 	std::list <interface::ButtonEventsHandlerObserver*> :: iterator it;
 	for(it = obsList.begin(); it != obsList.end(); ++it) {
 		(*it)->onButtonLongPressed(buttonIndex);
